@@ -125,17 +125,3 @@ ORDER BY TARIX;
 --5)Iscilerle Vezifelerini birlesdirmek
 
 --Birlesdirilib
-
-
------------ II seviyye --------------------
-
---1)Qeribe Qurube isler
-
---2)Satislarin Cemi
-
-SELECT SUM(SATIS) AS SatisCem
-FROM Mehsul
-INNER JOIN Satis ON Mehsul.ID = Satis.MehsulID;
-
---Qalanlarindan bir sey bawa dusmedim :(
-
